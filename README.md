@@ -10,6 +10,7 @@ In weather.dat you'll find daily weather data for Morristown, NJ for June of 200
 
 # To run it
 
+`bundle install`
 `ruby run_app.rb`
 
 # To test it
