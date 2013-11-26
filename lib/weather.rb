@@ -27,7 +27,10 @@ class Weather
   end
 
   def self.process_file(file_path)
-    column_names      = ["Dy", "MxT", "MnT"]
+    # quick sanity check for file passed in
+    exit unless File.exists?(file_path)
+
+    # define some useful variables
     reading_in_values = false
     spread_set        = false
     smallest_spread   = {value: 0, day: 0}
