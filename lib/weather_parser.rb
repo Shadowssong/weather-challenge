@@ -1,4 +1,4 @@
-class Weather
+class WeatherParser
   def initialize(file_path)
     @file_path = file_path
     @reading_in_values = false
@@ -15,11 +15,7 @@ class Weather
   end
 
   def contain_column_names?(parsed_line)
-    if parsed_line[0].include?("Dy") &&parsed_line[1].include?("MxT") && parsed_line[2].include?("MnT")
-      return true
-    else
-      return false
-    end
+    parsed_line[0].include?("Dy") && parsed_line[1].include?("MxT") && parsed_line[2].include?("MnT")
   end
 
   def calculate_spread(parsed_line)

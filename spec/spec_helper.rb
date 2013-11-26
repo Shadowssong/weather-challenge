@@ -2,4 +2,4 @@ require "simplecov"
 SimpleCov.start
 require 'rspec'
 
-require_relative "../lib/weather.rb"
+require_relative "../lib/weather_parser.rb"
