@@ -1,4 +1,4 @@
-# Weather-Challenge [![Build Status](https://travis-ci.org/joshrendek/rb-weather.png?branch=master)](https://travis-ci.org/joshrendek/rb-weather)
+# Weather-Challenge [![Build Status](https://travis-ci.org/Shadowssong/weather-challenge.png?branch=master)](https://travis-ci.org/Shadowssong/weather-challenge)
 
 # GOAL
 
