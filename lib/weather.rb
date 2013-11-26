@@ -46,7 +46,7 @@ class Weather
         # check if we have reached the end of temp values
         break if parsed_line[0].include?("mo")
         # calculate spread
-        day = parsed_line[0]
+        day = parsed_line[0].to_i
         spread = calculate_spread(parsed_line)
         # if spread hasn't been set lets init it to the first value we find
         spread_set = init_spread(spread, day, smallest_spread) unless spread_set
