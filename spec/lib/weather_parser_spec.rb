@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe weather_parserParser do
-  let(:weather_parser) { weather_parserParser.new('./bin/weather_parser.dat') }
+describe WeatherParser do
+  let(:weather_parser) { WeatherParser.new('./bin/weather.dat') }
 
   describe '#contain_column_names?' do
     let(:parsed_line) { ["Dy", "MxT", "MnT"] }
